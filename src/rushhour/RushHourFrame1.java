@@ -17,6 +17,7 @@ public class RushHourFrame1 extends javax.swing.JFrame {
      */
     public RushHourFrame1() {
         initComponents();
+        setLocationRelativeTo(this);
     }
 
     /**

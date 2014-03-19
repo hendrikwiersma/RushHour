@@ -20,9 +20,10 @@ public class RushHour {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        RushHourFrame1 newframe = new RushHourFrame1();
+        Picker newframe = new Picker();
         newframe.setVisible(true);
+    }
+    public void recognizecars(){
         
     }
-    
 }
