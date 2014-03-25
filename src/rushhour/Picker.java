@@ -6,6 +6,8 @@
 
 package rushhour;
 
+import javax.swing.JPanel;
+
 /**
  *
  * @author hendrik
@@ -87,17 +89,9 @@ public class Picker extends javax.swing.JFrame {
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
         // TODO add your handling code here:
-        int choise;
-        choise = jList1.getSelectedIndex();
-        if (choise == 0 ){
-            RushHourFrame1 mainframe = new RushHourFrame1();
-            mainframe.setVisible(true); 
-        }
-        if (choise == 1){
-            RushHourFrame2 mainframe = new RushHourFrame2();
-            mainframe.setVisible(true); 
-        }
-        else {        }
+        RushHour newRushHour = new RushHour();
+        int choise = jList1.getSelectedIndex();
+        newRushHour.startapp(choise);
         dispose();
     }//GEN-LAST:event_jButton1ActionPerformed
 
@@ -139,7 +133,7 @@ public class Picker extends javax.swing.JFrame {
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton jButton1;
     private javax.swing.JLabel jLabel1;
-    private javax.swing.JList jList1;
+    public javax.swing.JList jList1;
     private javax.swing.JScrollPane jScrollPane1;
     // End of variables declaration//GEN-END:variables
 }
