@@ -26,11 +26,49 @@ public class RushHour {
      */
     public static void main(String[] args) {
 // TODO code application logic here
+        Picker newpicker = new Picker();
+        newpicker.setVisible(true);
+
+    }
+
+    public static void startapp(int choise) {
         RushHourFrame1 mainframe = new RushHourFrame1();
-        mainframe.setVisible(true);
+        if(choise == -1){
+            mainframe.dispose();
+        }
+        if (choise == 0) {
+            mainframe.setVisible(true);
+        }
+        if (choise == 1) {
+            RushHourFrame2 newframe = new RushHourFrame2();
+            for (Component panel : mainframe.jPanel1.getComponents()){
+                for(Component panelcompare : newframe.jPanel1.getComponents()){
+                    if (panel.getName().equals(panelcompare.getName())){
+                        panel.setBackground(panelcompare.getBackground());
+                    }
+                }
+            }
+            newframe.dispose();
+            mainframe.setVisible(true);
+        }
+        if (choise == 2){
+            
+        }
         createPanelList(mainframe);
         recognizeCars();
         MoveWhichWay();
+        info();
+    }
+    public static void info(){
+        System.out.println("Number of cars: "+carsByColor.size());
+        for (Car car : carsByColor.values()){
+            System.out.println("Car "+car.getPanels().length+car.panels[0].color+" at position ");
+            for (Panel panel : car.getPanels()){
+                System.out.print(panel.x+" ");
+            }
+             System.out.println(" can move "+car.movement);
+        }
+        
     }
 
     public static void createPanelList(RushHourFrame1 mainframe) {
@@ -109,8 +147,7 @@ public class RushHour {
 
             } else {
                 car.movement = "vertical";
-            }
-            System.out.println(car);
+            }   
         }
     }
 }
