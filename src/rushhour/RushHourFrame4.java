@@ -10,12 +10,12 @@ package rushhour;
  *
  * @author gyrth
  */
-public class RushHourFrame2 extends javax.swing.JFrame {
+public class RushHourFrame4 extends javax.swing.JFrame {
 
     /**
-     * Creates new form RushHourFrame4
+     * Creates new form RushHourFrame3
      */
-    public RushHourFrame2() {
+    public RushHourFrame4() {
         initComponents();
     }
 
@@ -29,172 +29,64 @@ public class RushHourFrame2 extends javax.swing.JFrame {
     private void initComponents() {
 
         jPanel1 = new javax.swing.JPanel();
-        jPanel34 = new javax.swing.JPanel();
-        jPanel62 = new javax.swing.JPanel();
-        jPanel32 = new javax.swing.JPanel();
-        jPanel63 = new javax.swing.JPanel();
-        jPanel33 = new javax.swing.JPanel();
-        jPanel56 = new javax.swing.JPanel();
-        jPanel26 = new javax.swing.JPanel();
+        jPanel14 = new javax.swing.JPanel();
         jPanel61 = new javax.swing.JPanel();
-        jPanel31 = new javax.swing.JPanel();
-        jPanel66 = new javax.swing.JPanel();
+        jPanel15 = new javax.swing.JPanel();
         jPanel24 = new javax.swing.JPanel();
-        jPanel25 = new javax.swing.JPanel();
-        jPanel64 = new javax.swing.JPanel();
+        jPanel66 = new javax.swing.JPanel();
+        jPanel31 = new javax.swing.JPanel();
+        jPanel26 = new javax.swing.JPanel();
+        jPanel33 = new javax.swing.JPanel();
         jPanel22 = new javax.swing.JPanel();
-        jPanel65 = new javax.swing.JPanel();
-        jPanel23 = new javax.swing.JPanel();
+        jPanel43 = new javax.swing.JPanel();
+        jPanel21 = new javax.swing.JPanel();
+        jPanel44 = new javax.swing.JPanel();
+        jPanel56 = new javax.swing.JPanel();
+        jPanel42 = new javax.swing.JPanel();
+        jPanel13 = new javax.swing.JPanel();
+        jPanel41 = new javax.swing.JPanel();
+        jPanel25 = new javax.swing.JPanel();
+        jPanel46 = new javax.swing.JPanel();
+        jPanel34 = new javax.swing.JPanel();
+        jPanel45 = new javax.swing.JPanel();
+        jPanel64 = new javax.swing.JPanel();
+        jPanel52 = new javax.swing.JPanel();
+        jPanel51 = new javax.swing.JPanel();
         jPanel36 = new javax.swing.JPanel();
         jPanel35 = new javax.swing.JPanel();
-        jPanel41 = new javax.swing.JPanel();
-        jPanel42 = new javax.swing.JPanel();
-        jPanel43 = new javax.swing.JPanel();
-        jPanel44 = new javax.swing.JPanel();
-        jPanel45 = new javax.swing.JPanel();
-        jPanel46 = new javax.swing.JPanel();
-        jPanel51 = new javax.swing.JPanel();
-        jPanel52 = new javax.swing.JPanel();
-        jPanel21 = new javax.swing.JPanel();
         jPanel53 = new javax.swing.JPanel();
-        jPanel14 = new javax.swing.JPanel();
-        jPanel13 = new javax.swing.JPanel();
-        jPanel55 = new javax.swing.JPanel();
-        jPanel12 = new javax.swing.JPanel();
+        jPanel62 = new javax.swing.JPanel();
         jPanel54 = new javax.swing.JPanel();
+        jPanel32 = new javax.swing.JPanel();
+        jPanel12 = new javax.swing.JPanel();
+        jPanel63 = new javax.swing.JPanel();
         jPanel11 = new javax.swing.JPanel();
+        jPanel23 = new javax.swing.JPanel();
+        jPanel55 = new javax.swing.JPanel();
         jPanel16 = new javax.swing.JPanel();
-        jPanel15 = new javax.swing.JPanel();
+        jPanel65 = new javax.swing.JPanel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
-        jPanel34.setBackground(new java.awt.Color(0, 0, 255));
-        jPanel34.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
-        jPanel34.setForeground(new java.awt.Color(255, 0, 0));
-        jPanel34.setName("34"); // NOI18N
-        jPanel34.setPreferredSize(new java.awt.Dimension(50, 50));
-        jPanel34.setRequestFocusEnabled(false);
+        jPanel14.setBackground(new java.awt.Color(255, 255, 255));
+        jPanel14.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        jPanel14.setForeground(new java.awt.Color(255, 0, 0));
+        jPanel14.setName("14"); // NOI18N
+        jPanel14.setPreferredSize(new java.awt.Dimension(50, 50));
+        jPanel14.setRequestFocusEnabled(false);
 
-        javax.swing.GroupLayout jPanel34Layout = new javax.swing.GroupLayout(jPanel34);
-        jPanel34.setLayout(jPanel34Layout);
-        jPanel34Layout.setHorizontalGroup(
-            jPanel34Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+        javax.swing.GroupLayout jPanel14Layout = new javax.swing.GroupLayout(jPanel14);
+        jPanel14.setLayout(jPanel14Layout);
+        jPanel14Layout.setHorizontalGroup(
+            jPanel14Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGap(0, 44, Short.MAX_VALUE)
         );
-        jPanel34Layout.setVerticalGroup(
-            jPanel34Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 44, Short.MAX_VALUE)
-        );
-
-        jPanel62.setBackground(new java.awt.Color(255, 255, 255));
-        jPanel62.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
-        jPanel62.setForeground(new java.awt.Color(255, 0, 0));
-        jPanel62.setName("62"); // NOI18N
-        jPanel62.setPreferredSize(new java.awt.Dimension(50, 50));
-        jPanel62.setRequestFocusEnabled(false);
-
-        javax.swing.GroupLayout jPanel62Layout = new javax.swing.GroupLayout(jPanel62);
-        jPanel62.setLayout(jPanel62Layout);
-        jPanel62Layout.setHorizontalGroup(
-            jPanel62Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 44, Short.MAX_VALUE)
-        );
-        jPanel62Layout.setVerticalGroup(
-            jPanel62Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+        jPanel14Layout.setVerticalGroup(
+            jPanel14Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGap(0, 44, Short.MAX_VALUE)
         );
 
-        jPanel32.setBackground(new java.awt.Color(255, 0, 0));
-        jPanel32.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
-        jPanel32.setForeground(new java.awt.Color(255, 0, 0));
-        jPanel32.setName("32"); // NOI18N
-        jPanel32.setPreferredSize(new java.awt.Dimension(50, 50));
-        jPanel32.setRequestFocusEnabled(false);
-
-        javax.swing.GroupLayout jPanel32Layout = new javax.swing.GroupLayout(jPanel32);
-        jPanel32.setLayout(jPanel32Layout);
-        jPanel32Layout.setHorizontalGroup(
-            jPanel32Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 44, Short.MAX_VALUE)
-        );
-        jPanel32Layout.setVerticalGroup(
-            jPanel32Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 44, Short.MAX_VALUE)
-        );
-
-        jPanel63.setBackground(new java.awt.Color(0, 153, 0));
-        jPanel63.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
-        jPanel63.setForeground(new java.awt.Color(255, 0, 0));
-        jPanel63.setName("63"); // NOI18N
-        jPanel63.setPreferredSize(new java.awt.Dimension(50, 50));
-        jPanel63.setRequestFocusEnabled(false);
-
-        javax.swing.GroupLayout jPanel63Layout = new javax.swing.GroupLayout(jPanel63);
-        jPanel63.setLayout(jPanel63Layout);
-        jPanel63Layout.setHorizontalGroup(
-            jPanel63Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 44, Short.MAX_VALUE)
-        );
-        jPanel63Layout.setVerticalGroup(
-            jPanel63Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 44, Short.MAX_VALUE)
-        );
-
-        jPanel33.setBackground(new java.awt.Color(255, 0, 0));
-        jPanel33.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
-        jPanel33.setForeground(new java.awt.Color(255, 0, 0));
-        jPanel33.setName("33"); // NOI18N
-        jPanel33.setPreferredSize(new java.awt.Dimension(50, 50));
-        jPanel33.setRequestFocusEnabled(false);
-
-        javax.swing.GroupLayout jPanel33Layout = new javax.swing.GroupLayout(jPanel33);
-        jPanel33.setLayout(jPanel33Layout);
-        jPanel33Layout.setHorizontalGroup(
-            jPanel33Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 44, Short.MAX_VALUE)
-        );
-        jPanel33Layout.setVerticalGroup(
-            jPanel33Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 44, Short.MAX_VALUE)
-        );
-
-        jPanel56.setBackground(new java.awt.Color(0, 255, 255));
-        jPanel56.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
-        jPanel56.setForeground(new java.awt.Color(0, 255, 255));
-        jPanel56.setName("56"); // NOI18N
-        jPanel56.setPreferredSize(new java.awt.Dimension(50, 50));
-        jPanel56.setRequestFocusEnabled(false);
-
-        javax.swing.GroupLayout jPanel56Layout = new javax.swing.GroupLayout(jPanel56);
-        jPanel56.setLayout(jPanel56Layout);
-        jPanel56Layout.setHorizontalGroup(
-            jPanel56Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 44, Short.MAX_VALUE)
-        );
-        jPanel56Layout.setVerticalGroup(
-            jPanel56Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 44, Short.MAX_VALUE)
-        );
-
-        jPanel26.setBackground(new java.awt.Color(255, 255, 102));
-        jPanel26.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
-        jPanel26.setForeground(new java.awt.Color(255, 0, 0));
-        jPanel26.setName("26"); // NOI18N
-        jPanel26.setPreferredSize(new java.awt.Dimension(50, 50));
-        jPanel26.setRequestFocusEnabled(false);
-
-        javax.swing.GroupLayout jPanel26Layout = new javax.swing.GroupLayout(jPanel26);
-        jPanel26.setLayout(jPanel26Layout);
-        jPanel26Layout.setHorizontalGroup(
-            jPanel26Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 44, Short.MAX_VALUE)
-        );
-        jPanel26Layout.setVerticalGroup(
-            jPanel26Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 44, Short.MAX_VALUE)
-        );
-
-        jPanel61.setBackground(new java.awt.Color(255, 51, 0));
+        jPanel61.setBackground(new java.awt.Color(51, 51, 51));
         jPanel61.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jPanel61.setForeground(new java.awt.Color(255, 0, 0));
         jPanel61.setName("61"); // NOI18N
@@ -212,43 +104,25 @@ public class RushHourFrame2 extends javax.swing.JFrame {
             .addGap(0, 44, Short.MAX_VALUE)
         );
 
-        jPanel31.setBackground(new java.awt.Color(153, 102, 255));
-        jPanel31.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
-        jPanel31.setForeground(new java.awt.Color(255, 0, 0));
-        jPanel31.setName("31"); // NOI18N
-        jPanel31.setPreferredSize(new java.awt.Dimension(50, 50));
-        jPanel31.setRequestFocusEnabled(false);
+        jPanel15.setBackground(new java.awt.Color(255, 255, 255));
+        jPanel15.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        jPanel15.setForeground(new java.awt.Color(255, 0, 0));
+        jPanel15.setName("15"); // NOI18N
+        jPanel15.setPreferredSize(new java.awt.Dimension(50, 50));
+        jPanel15.setRequestFocusEnabled(false);
 
-        javax.swing.GroupLayout jPanel31Layout = new javax.swing.GroupLayout(jPanel31);
-        jPanel31.setLayout(jPanel31Layout);
-        jPanel31Layout.setHorizontalGroup(
-            jPanel31Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+        javax.swing.GroupLayout jPanel15Layout = new javax.swing.GroupLayout(jPanel15);
+        jPanel15.setLayout(jPanel15Layout);
+        jPanel15Layout.setHorizontalGroup(
+            jPanel15Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGap(0, 44, Short.MAX_VALUE)
         );
-        jPanel31Layout.setVerticalGroup(
-            jPanel31Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 44, Short.MAX_VALUE)
-        );
-
-        jPanel66.setBackground(new java.awt.Color(255, 255, 255));
-        jPanel66.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
-        jPanel66.setForeground(new java.awt.Color(255, 0, 0));
-        jPanel66.setName("66"); // NOI18N
-        jPanel66.setPreferredSize(new java.awt.Dimension(50, 50));
-        jPanel66.setRequestFocusEnabled(false);
-
-        javax.swing.GroupLayout jPanel66Layout = new javax.swing.GroupLayout(jPanel66);
-        jPanel66.setLayout(jPanel66Layout);
-        jPanel66Layout.setHorizontalGroup(
-            jPanel66Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 44, Short.MAX_VALUE)
-        );
-        jPanel66Layout.setVerticalGroup(
-            jPanel66Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+        jPanel15Layout.setVerticalGroup(
+            jPanel15Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGap(0, 44, Short.MAX_VALUE)
         );
 
-        jPanel24.setBackground(new java.awt.Color(0, 0, 255));
+        jPanel24.setBackground(new java.awt.Color(255, 255, 255));
         jPanel24.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jPanel24.setForeground(new java.awt.Color(255, 0, 0));
         jPanel24.setName("24"); // NOI18N
@@ -266,43 +140,79 @@ public class RushHourFrame2 extends javax.swing.JFrame {
             .addGap(0, 44, Short.MAX_VALUE)
         );
 
-        jPanel25.setBackground(new java.awt.Color(255, 255, 255));
-        jPanel25.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
-        jPanel25.setForeground(new java.awt.Color(255, 0, 0));
-        jPanel25.setName("25"); // NOI18N
-        jPanel25.setPreferredSize(new java.awt.Dimension(50, 50));
-        jPanel25.setRequestFocusEnabled(false);
+        jPanel66.setBackground(new java.awt.Color(153, 153, 153));
+        jPanel66.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        jPanel66.setForeground(new java.awt.Color(255, 0, 0));
+        jPanel66.setName("66"); // NOI18N
+        jPanel66.setPreferredSize(new java.awt.Dimension(50, 50));
+        jPanel66.setRequestFocusEnabled(false);
 
-        javax.swing.GroupLayout jPanel25Layout = new javax.swing.GroupLayout(jPanel25);
-        jPanel25.setLayout(jPanel25Layout);
-        jPanel25Layout.setHorizontalGroup(
-            jPanel25Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+        javax.swing.GroupLayout jPanel66Layout = new javax.swing.GroupLayout(jPanel66);
+        jPanel66.setLayout(jPanel66Layout);
+        jPanel66Layout.setHorizontalGroup(
+            jPanel66Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGap(0, 44, Short.MAX_VALUE)
         );
-        jPanel25Layout.setVerticalGroup(
-            jPanel25Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 44, Short.MAX_VALUE)
-        );
-
-        jPanel64.setBackground(new java.awt.Color(0, 153, 0));
-        jPanel64.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
-        jPanel64.setForeground(new java.awt.Color(255, 0, 0));
-        jPanel64.setName("64"); // NOI18N
-        jPanel64.setPreferredSize(new java.awt.Dimension(50, 50));
-        jPanel64.setRequestFocusEnabled(false);
-
-        javax.swing.GroupLayout jPanel64Layout = new javax.swing.GroupLayout(jPanel64);
-        jPanel64.setLayout(jPanel64Layout);
-        jPanel64Layout.setHorizontalGroup(
-            jPanel64Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 44, Short.MAX_VALUE)
-        );
-        jPanel64Layout.setVerticalGroup(
-            jPanel64Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+        jPanel66Layout.setVerticalGroup(
+            jPanel66Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGap(0, 44, Short.MAX_VALUE)
         );
 
-        jPanel22.setBackground(new java.awt.Color(255, 255, 255));
+        jPanel31.setBackground(new java.awt.Color(255, 0, 0));
+        jPanel31.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        jPanel31.setForeground(new java.awt.Color(255, 0, 0));
+        jPanel31.setName("31"); // NOI18N
+        jPanel31.setPreferredSize(new java.awt.Dimension(50, 50));
+        jPanel31.setRequestFocusEnabled(false);
+
+        javax.swing.GroupLayout jPanel31Layout = new javax.swing.GroupLayout(jPanel31);
+        jPanel31.setLayout(jPanel31Layout);
+        jPanel31Layout.setHorizontalGroup(
+            jPanel31Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 44, Short.MAX_VALUE)
+        );
+        jPanel31Layout.setVerticalGroup(
+            jPanel31Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 44, Short.MAX_VALUE)
+        );
+
+        jPanel26.setBackground(new java.awt.Color(51, 153, 255));
+        jPanel26.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        jPanel26.setForeground(new java.awt.Color(255, 0, 0));
+        jPanel26.setName("26"); // NOI18N
+        jPanel26.setPreferredSize(new java.awt.Dimension(50, 50));
+        jPanel26.setRequestFocusEnabled(false);
+
+        javax.swing.GroupLayout jPanel26Layout = new javax.swing.GroupLayout(jPanel26);
+        jPanel26.setLayout(jPanel26Layout);
+        jPanel26Layout.setHorizontalGroup(
+            jPanel26Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 44, Short.MAX_VALUE)
+        );
+        jPanel26Layout.setVerticalGroup(
+            jPanel26Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 44, Short.MAX_VALUE)
+        );
+
+        jPanel33.setBackground(new java.awt.Color(102, 255, 102));
+        jPanel33.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        jPanel33.setForeground(new java.awt.Color(255, 0, 0));
+        jPanel33.setName("33"); // NOI18N
+        jPanel33.setPreferredSize(new java.awt.Dimension(50, 50));
+        jPanel33.setRequestFocusEnabled(false);
+
+        javax.swing.GroupLayout jPanel33Layout = new javax.swing.GroupLayout(jPanel33);
+        jPanel33.setLayout(jPanel33Layout);
+        jPanel33Layout.setHorizontalGroup(
+            jPanel33Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 44, Short.MAX_VALUE)
+        );
+        jPanel33Layout.setVerticalGroup(
+            jPanel33Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 44, Short.MAX_VALUE)
+        );
+
+        jPanel22.setBackground(new java.awt.Color(255, 51, 255));
         jPanel22.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jPanel22.setForeground(new java.awt.Color(255, 0, 0));
         jPanel22.setName("22"); // NOI18N
@@ -320,93 +230,75 @@ public class RushHourFrame2 extends javax.swing.JFrame {
             .addGap(0, 44, Short.MAX_VALUE)
         );
 
-        jPanel65.setBackground(new java.awt.Color(0, 153, 0));
-        jPanel65.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
-        jPanel65.setForeground(new java.awt.Color(255, 0, 0));
-        jPanel65.setName("65"); // NOI18N
-        jPanel65.setPreferredSize(new java.awt.Dimension(50, 50));
-        jPanel65.setRequestFocusEnabled(false);
+        jPanel43.setBackground(new java.awt.Color(102, 255, 102));
+        jPanel43.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        jPanel43.setForeground(new java.awt.Color(255, 0, 0));
+        jPanel43.setName("43"); // NOI18N
+        jPanel43.setPreferredSize(new java.awt.Dimension(50, 50));
+        jPanel43.setRequestFocusEnabled(false);
 
-        javax.swing.GroupLayout jPanel65Layout = new javax.swing.GroupLayout(jPanel65);
-        jPanel65.setLayout(jPanel65Layout);
-        jPanel65Layout.setHorizontalGroup(
-            jPanel65Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+        javax.swing.GroupLayout jPanel43Layout = new javax.swing.GroupLayout(jPanel43);
+        jPanel43.setLayout(jPanel43Layout);
+        jPanel43Layout.setHorizontalGroup(
+            jPanel43Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGap(0, 44, Short.MAX_VALUE)
         );
-        jPanel65Layout.setVerticalGroup(
-            jPanel65Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 44, Short.MAX_VALUE)
-        );
-
-        jPanel23.setBackground(new java.awt.Color(255, 255, 255));
-        jPanel23.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
-        jPanel23.setForeground(new java.awt.Color(255, 0, 0));
-        jPanel23.setName("23"); // NOI18N
-        jPanel23.setPreferredSize(new java.awt.Dimension(50, 50));
-        jPanel23.setRequestFocusEnabled(false);
-
-        javax.swing.GroupLayout jPanel23Layout = new javax.swing.GroupLayout(jPanel23);
-        jPanel23.setLayout(jPanel23Layout);
-        jPanel23Layout.setHorizontalGroup(
-            jPanel23Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 44, Short.MAX_VALUE)
-        );
-        jPanel23Layout.setVerticalGroup(
-            jPanel23Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+        jPanel43Layout.setVerticalGroup(
+            jPanel43Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGap(0, 44, Short.MAX_VALUE)
         );
 
-        jPanel36.setBackground(new java.awt.Color(255, 255, 102));
-        jPanel36.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
-        jPanel36.setForeground(new java.awt.Color(255, 0, 0));
-        jPanel36.setName("36"); // NOI18N
-        jPanel36.setPreferredSize(new java.awt.Dimension(50, 50));
-        jPanel36.setRequestFocusEnabled(false);
+        jPanel21.setBackground(new java.awt.Color(255, 51, 255));
+        jPanel21.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        jPanel21.setForeground(new java.awt.Color(255, 0, 0));
+        jPanel21.setName("21"); // NOI18N
+        jPanel21.setPreferredSize(new java.awt.Dimension(50, 50));
+        jPanel21.setRequestFocusEnabled(false);
 
-        javax.swing.GroupLayout jPanel36Layout = new javax.swing.GroupLayout(jPanel36);
-        jPanel36.setLayout(jPanel36Layout);
-        jPanel36Layout.setHorizontalGroup(
-            jPanel36Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+        javax.swing.GroupLayout jPanel21Layout = new javax.swing.GroupLayout(jPanel21);
+        jPanel21.setLayout(jPanel21Layout);
+        jPanel21Layout.setHorizontalGroup(
+            jPanel21Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGap(0, 44, Short.MAX_VALUE)
         );
-        jPanel36Layout.setVerticalGroup(
-            jPanel36Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 44, Short.MAX_VALUE)
-        );
-
-        jPanel35.setBackground(new java.awt.Color(255, 255, 255));
-        jPanel35.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
-        jPanel35.setForeground(new java.awt.Color(255, 0, 0));
-        jPanel35.setName("35"); // NOI18N
-        jPanel35.setPreferredSize(new java.awt.Dimension(50, 50));
-        jPanel35.setRequestFocusEnabled(false);
-
-        javax.swing.GroupLayout jPanel35Layout = new javax.swing.GroupLayout(jPanel35);
-        jPanel35.setLayout(jPanel35Layout);
-        jPanel35Layout.setHorizontalGroup(
-            jPanel35Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 44, Short.MAX_VALUE)
-        );
-        jPanel35Layout.setVerticalGroup(
-            jPanel35Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+        jPanel21Layout.setVerticalGroup(
+            jPanel21Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGap(0, 44, Short.MAX_VALUE)
         );
 
-        jPanel41.setBackground(new java.awt.Color(153, 102, 255));
-        jPanel41.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
-        jPanel41.setForeground(new java.awt.Color(255, 0, 0));
-        jPanel41.setName("41"); // NOI18N
-        jPanel41.setPreferredSize(new java.awt.Dimension(50, 50));
-        jPanel41.setRequestFocusEnabled(false);
+        jPanel44.setBackground(new java.awt.Color(204, 0, 255));
+        jPanel44.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        jPanel44.setForeground(new java.awt.Color(255, 0, 0));
+        jPanel44.setName("44"); // NOI18N
+        jPanel44.setPreferredSize(new java.awt.Dimension(50, 50));
+        jPanel44.setRequestFocusEnabled(false);
 
-        javax.swing.GroupLayout jPanel41Layout = new javax.swing.GroupLayout(jPanel41);
-        jPanel41.setLayout(jPanel41Layout);
-        jPanel41Layout.setHorizontalGroup(
-            jPanel41Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+        javax.swing.GroupLayout jPanel44Layout = new javax.swing.GroupLayout(jPanel44);
+        jPanel44.setLayout(jPanel44Layout);
+        jPanel44Layout.setHorizontalGroup(
+            jPanel44Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGap(0, 44, Short.MAX_VALUE)
         );
-        jPanel41Layout.setVerticalGroup(
-            jPanel41Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+        jPanel44Layout.setVerticalGroup(
+            jPanel44Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 44, Short.MAX_VALUE)
+        );
+
+        jPanel56.setBackground(new java.awt.Color(0, 102, 0));
+        jPanel56.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        jPanel56.setForeground(new java.awt.Color(0, 255, 255));
+        jPanel56.setName("56"); // NOI18N
+        jPanel56.setPreferredSize(new java.awt.Dimension(50, 50));
+        jPanel56.setRequestFocusEnabled(false);
+
+        javax.swing.GroupLayout jPanel56Layout = new javax.swing.GroupLayout(jPanel56);
+        jPanel56.setLayout(jPanel56Layout);
+        jPanel56Layout.setHorizontalGroup(
+            jPanel56Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 44, Short.MAX_VALUE)
+        );
+        jPanel56Layout.setVerticalGroup(
+            jPanel56Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGap(0, 44, Short.MAX_VALUE)
         );
 
@@ -428,57 +320,57 @@ public class RushHourFrame2 extends javax.swing.JFrame {
             .addGap(0, 44, Short.MAX_VALUE)
         );
 
-        jPanel43.setBackground(new java.awt.Color(255, 255, 255));
-        jPanel43.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
-        jPanel43.setForeground(new java.awt.Color(255, 0, 0));
-        jPanel43.setName("43"); // NOI18N
-        jPanel43.setPreferredSize(new java.awt.Dimension(50, 50));
-        jPanel43.setRequestFocusEnabled(false);
+        jPanel13.setBackground(new java.awt.Color(255, 255, 255));
+        jPanel13.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        jPanel13.setForeground(new java.awt.Color(255, 0, 0));
+        jPanel13.setName("13"); // NOI18N
+        jPanel13.setPreferredSize(new java.awt.Dimension(50, 50));
+        jPanel13.setRequestFocusEnabled(false);
 
-        javax.swing.GroupLayout jPanel43Layout = new javax.swing.GroupLayout(jPanel43);
-        jPanel43.setLayout(jPanel43Layout);
-        jPanel43Layout.setHorizontalGroup(
-            jPanel43Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+        javax.swing.GroupLayout jPanel13Layout = new javax.swing.GroupLayout(jPanel13);
+        jPanel13.setLayout(jPanel13Layout);
+        jPanel13Layout.setHorizontalGroup(
+            jPanel13Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGap(0, 44, Short.MAX_VALUE)
         );
-        jPanel43Layout.setVerticalGroup(
-            jPanel43Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 44, Short.MAX_VALUE)
-        );
-
-        jPanel44.setBackground(new java.awt.Color(0, 0, 255));
-        jPanel44.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
-        jPanel44.setForeground(new java.awt.Color(255, 0, 0));
-        jPanel44.setName("44"); // NOI18N
-        jPanel44.setPreferredSize(new java.awt.Dimension(50, 50));
-        jPanel44.setRequestFocusEnabled(false);
-
-        javax.swing.GroupLayout jPanel44Layout = new javax.swing.GroupLayout(jPanel44);
-        jPanel44.setLayout(jPanel44Layout);
-        jPanel44Layout.setHorizontalGroup(
-            jPanel44Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 44, Short.MAX_VALUE)
-        );
-        jPanel44Layout.setVerticalGroup(
-            jPanel44Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+        jPanel13Layout.setVerticalGroup(
+            jPanel13Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGap(0, 44, Short.MAX_VALUE)
         );
 
-        jPanel45.setBackground(new java.awt.Color(255, 255, 255));
-        jPanel45.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
-        jPanel45.setForeground(new java.awt.Color(255, 0, 0));
-        jPanel45.setName("45"); // NOI18N
-        jPanel45.setPreferredSize(new java.awt.Dimension(50, 50));
-        jPanel45.setRequestFocusEnabled(false);
+        jPanel41.setBackground(new java.awt.Color(51, 51, 51));
+        jPanel41.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        jPanel41.setForeground(new java.awt.Color(255, 0, 0));
+        jPanel41.setName("41"); // NOI18N
+        jPanel41.setPreferredSize(new java.awt.Dimension(50, 50));
+        jPanel41.setRequestFocusEnabled(false);
 
-        javax.swing.GroupLayout jPanel45Layout = new javax.swing.GroupLayout(jPanel45);
-        jPanel45.setLayout(jPanel45Layout);
-        jPanel45Layout.setHorizontalGroup(
-            jPanel45Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+        javax.swing.GroupLayout jPanel41Layout = new javax.swing.GroupLayout(jPanel41);
+        jPanel41.setLayout(jPanel41Layout);
+        jPanel41Layout.setHorizontalGroup(
+            jPanel41Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGap(0, 44, Short.MAX_VALUE)
         );
-        jPanel45Layout.setVerticalGroup(
-            jPanel45Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+        jPanel41Layout.setVerticalGroup(
+            jPanel41Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 44, Short.MAX_VALUE)
+        );
+
+        jPanel25.setBackground(new java.awt.Color(255, 255, 0));
+        jPanel25.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        jPanel25.setForeground(new java.awt.Color(255, 0, 0));
+        jPanel25.setName("25"); // NOI18N
+        jPanel25.setPreferredSize(new java.awt.Dimension(50, 50));
+        jPanel25.setRequestFocusEnabled(false);
+
+        javax.swing.GroupLayout jPanel25Layout = new javax.swing.GroupLayout(jPanel25);
+        jPanel25.setLayout(jPanel25Layout);
+        jPanel25Layout.setHorizontalGroup(
+            jPanel25Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 44, Short.MAX_VALUE)
+        );
+        jPanel25Layout.setVerticalGroup(
+            jPanel25Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGap(0, 44, Short.MAX_VALUE)
         );
 
@@ -500,21 +392,57 @@ public class RushHourFrame2 extends javax.swing.JFrame {
             .addGap(0, 44, Short.MAX_VALUE)
         );
 
-        jPanel51.setBackground(new java.awt.Color(255, 51, 0));
-        jPanel51.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
-        jPanel51.setForeground(new java.awt.Color(255, 0, 0));
-        jPanel51.setName("51"); // NOI18N
-        jPanel51.setPreferredSize(new java.awt.Dimension(50, 50));
-        jPanel51.setRequestFocusEnabled(false);
+        jPanel34.setBackground(new java.awt.Color(255, 255, 255));
+        jPanel34.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        jPanel34.setForeground(new java.awt.Color(255, 0, 0));
+        jPanel34.setName("34"); // NOI18N
+        jPanel34.setPreferredSize(new java.awt.Dimension(50, 50));
+        jPanel34.setRequestFocusEnabled(false);
 
-        javax.swing.GroupLayout jPanel51Layout = new javax.swing.GroupLayout(jPanel51);
-        jPanel51.setLayout(jPanel51Layout);
-        jPanel51Layout.setHorizontalGroup(
-            jPanel51Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+        javax.swing.GroupLayout jPanel34Layout = new javax.swing.GroupLayout(jPanel34);
+        jPanel34.setLayout(jPanel34Layout);
+        jPanel34Layout.setHorizontalGroup(
+            jPanel34Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGap(0, 44, Short.MAX_VALUE)
         );
-        jPanel51Layout.setVerticalGroup(
-            jPanel51Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+        jPanel34Layout.setVerticalGroup(
+            jPanel34Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 44, Short.MAX_VALUE)
+        );
+
+        jPanel45.setBackground(new java.awt.Color(255, 255, 0));
+        jPanel45.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        jPanel45.setForeground(new java.awt.Color(255, 0, 0));
+        jPanel45.setName("45"); // NOI18N
+        jPanel45.setPreferredSize(new java.awt.Dimension(50, 50));
+        jPanel45.setRequestFocusEnabled(false);
+
+        javax.swing.GroupLayout jPanel45Layout = new javax.swing.GroupLayout(jPanel45);
+        jPanel45.setLayout(jPanel45Layout);
+        jPanel45Layout.setHorizontalGroup(
+            jPanel45Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 44, Short.MAX_VALUE)
+        );
+        jPanel45Layout.setVerticalGroup(
+            jPanel45Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 44, Short.MAX_VALUE)
+        );
+
+        jPanel64.setBackground(new java.awt.Color(204, 0, 255));
+        jPanel64.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        jPanel64.setForeground(new java.awt.Color(255, 0, 0));
+        jPanel64.setName("64"); // NOI18N
+        jPanel64.setPreferredSize(new java.awt.Dimension(50, 50));
+        jPanel64.setRequestFocusEnabled(false);
+
+        javax.swing.GroupLayout jPanel64Layout = new javax.swing.GroupLayout(jPanel64);
+        jPanel64.setLayout(jPanel64Layout);
+        jPanel64Layout.setHorizontalGroup(
+            jPanel64Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 44, Short.MAX_VALUE)
+        );
+        jPanel64Layout.setVerticalGroup(
+            jPanel64Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGap(0, 44, Short.MAX_VALUE)
         );
 
@@ -536,21 +464,57 @@ public class RushHourFrame2 extends javax.swing.JFrame {
             .addGap(0, 44, Short.MAX_VALUE)
         );
 
-        jPanel21.setBackground(new java.awt.Color(153, 102, 255));
-        jPanel21.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
-        jPanel21.setForeground(new java.awt.Color(255, 0, 0));
-        jPanel21.setName("21"); // NOI18N
-        jPanel21.setPreferredSize(new java.awt.Dimension(50, 50));
-        jPanel21.setRequestFocusEnabled(false);
+        jPanel51.setBackground(new java.awt.Color(51, 51, 51));
+        jPanel51.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        jPanel51.setForeground(new java.awt.Color(255, 0, 0));
+        jPanel51.setName("51"); // NOI18N
+        jPanel51.setPreferredSize(new java.awt.Dimension(50, 50));
+        jPanel51.setRequestFocusEnabled(false);
 
-        javax.swing.GroupLayout jPanel21Layout = new javax.swing.GroupLayout(jPanel21);
-        jPanel21.setLayout(jPanel21Layout);
-        jPanel21Layout.setHorizontalGroup(
-            jPanel21Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+        javax.swing.GroupLayout jPanel51Layout = new javax.swing.GroupLayout(jPanel51);
+        jPanel51.setLayout(jPanel51Layout);
+        jPanel51Layout.setHorizontalGroup(
+            jPanel51Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGap(0, 44, Short.MAX_VALUE)
         );
-        jPanel21Layout.setVerticalGroup(
-            jPanel21Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+        jPanel51Layout.setVerticalGroup(
+            jPanel51Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 44, Short.MAX_VALUE)
+        );
+
+        jPanel36.setBackground(new java.awt.Color(51, 153, 255));
+        jPanel36.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        jPanel36.setForeground(new java.awt.Color(255, 0, 0));
+        jPanel36.setName("36"); // NOI18N
+        jPanel36.setPreferredSize(new java.awt.Dimension(50, 50));
+        jPanel36.setRequestFocusEnabled(false);
+
+        javax.swing.GroupLayout jPanel36Layout = new javax.swing.GroupLayout(jPanel36);
+        jPanel36.setLayout(jPanel36Layout);
+        jPanel36Layout.setHorizontalGroup(
+            jPanel36Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 44, Short.MAX_VALUE)
+        );
+        jPanel36Layout.setVerticalGroup(
+            jPanel36Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 44, Short.MAX_VALUE)
+        );
+
+        jPanel35.setBackground(new java.awt.Color(255, 255, 0));
+        jPanel35.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        jPanel35.setForeground(new java.awt.Color(255, 0, 0));
+        jPanel35.setName("35"); // NOI18N
+        jPanel35.setPreferredSize(new java.awt.Dimension(50, 50));
+        jPanel35.setRequestFocusEnabled(false);
+
+        javax.swing.GroupLayout jPanel35Layout = new javax.swing.GroupLayout(jPanel35);
+        jPanel35.setLayout(jPanel35Layout);
+        jPanel35Layout.setHorizontalGroup(
+            jPanel35Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 44, Short.MAX_VALUE)
+        );
+        jPanel35Layout.setVerticalGroup(
+            jPanel35Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGap(0, 44, Short.MAX_VALUE)
         );
 
@@ -572,79 +536,25 @@ public class RushHourFrame2 extends javax.swing.JFrame {
             .addGap(0, 44, Short.MAX_VALUE)
         );
 
-        jPanel14.setBackground(new java.awt.Color(255, 255, 255));
-        jPanel14.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
-        jPanel14.setForeground(new java.awt.Color(255, 0, 0));
-        jPanel14.setName("14"); // NOI18N
-        jPanel14.setPreferredSize(new java.awt.Dimension(50, 50));
-        jPanel14.setRequestFocusEnabled(false);
+        jPanel62.setBackground(new java.awt.Color(255, 255, 255));
+        jPanel62.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        jPanel62.setForeground(new java.awt.Color(255, 0, 0));
+        jPanel62.setName("62"); // NOI18N
+        jPanel62.setPreferredSize(new java.awt.Dimension(50, 50));
+        jPanel62.setRequestFocusEnabled(false);
 
-        javax.swing.GroupLayout jPanel14Layout = new javax.swing.GroupLayout(jPanel14);
-        jPanel14.setLayout(jPanel14Layout);
-        jPanel14Layout.setHorizontalGroup(
-            jPanel14Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+        javax.swing.GroupLayout jPanel62Layout = new javax.swing.GroupLayout(jPanel62);
+        jPanel62.setLayout(jPanel62Layout);
+        jPanel62Layout.setHorizontalGroup(
+            jPanel62Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGap(0, 44, Short.MAX_VALUE)
         );
-        jPanel14Layout.setVerticalGroup(
-            jPanel14Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 44, Short.MAX_VALUE)
-        );
-
-        jPanel13.setBackground(new java.awt.Color(255, 255, 255));
-        jPanel13.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
-        jPanel13.setForeground(new java.awt.Color(255, 0, 0));
-        jPanel13.setName("13"); // NOI18N
-        jPanel13.setPreferredSize(new java.awt.Dimension(50, 50));
-        jPanel13.setRequestFocusEnabled(false);
-
-        javax.swing.GroupLayout jPanel13Layout = new javax.swing.GroupLayout(jPanel13);
-        jPanel13.setLayout(jPanel13Layout);
-        jPanel13Layout.setHorizontalGroup(
-            jPanel13Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 44, Short.MAX_VALUE)
-        );
-        jPanel13Layout.setVerticalGroup(
-            jPanel13Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+        jPanel62Layout.setVerticalGroup(
+            jPanel62Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGap(0, 44, Short.MAX_VALUE)
         );
 
-        jPanel55.setBackground(new java.awt.Color(0, 255, 255));
-        jPanel55.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
-        jPanel55.setForeground(new java.awt.Color(0, 255, 255));
-        jPanel55.setName("55"); // NOI18N
-        jPanel55.setPreferredSize(new java.awt.Dimension(50, 50));
-        jPanel55.setRequestFocusEnabled(false);
-
-        javax.swing.GroupLayout jPanel55Layout = new javax.swing.GroupLayout(jPanel55);
-        jPanel55.setLayout(jPanel55Layout);
-        jPanel55Layout.setHorizontalGroup(
-            jPanel55Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 44, Short.MAX_VALUE)
-        );
-        jPanel55Layout.setVerticalGroup(
-            jPanel55Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 44, Short.MAX_VALUE)
-        );
-
-        jPanel12.setBackground(new java.awt.Color(102, 255, 102));
-        jPanel12.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
-        jPanel12.setForeground(new java.awt.Color(255, 0, 0));
-        jPanel12.setName("12"); // NOI18N
-        jPanel12.setPreferredSize(new java.awt.Dimension(50, 50));
-        jPanel12.setRequestFocusEnabled(false);
-
-        javax.swing.GroupLayout jPanel12Layout = new javax.swing.GroupLayout(jPanel12);
-        jPanel12.setLayout(jPanel12Layout);
-        jPanel12Layout.setHorizontalGroup(
-            jPanel12Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 44, Short.MAX_VALUE)
-        );
-        jPanel12Layout.setVerticalGroup(
-            jPanel12Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 44, Short.MAX_VALUE)
-        );
-
-        jPanel54.setBackground(new java.awt.Color(255, 255, 255));
+        jPanel54.setBackground(new java.awt.Color(204, 0, 255));
         jPanel54.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jPanel54.setForeground(new java.awt.Color(255, 0, 0));
         jPanel54.setName("54"); // NOI18N
@@ -662,7 +572,61 @@ public class RushHourFrame2 extends javax.swing.JFrame {
             .addGap(0, 44, Short.MAX_VALUE)
         );
 
-        jPanel11.setBackground(new java.awt.Color(102, 255, 102));
+        jPanel32.setBackground(new java.awt.Color(255, 0, 0));
+        jPanel32.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        jPanel32.setForeground(new java.awt.Color(255, 0, 0));
+        jPanel32.setName("32"); // NOI18N
+        jPanel32.setPreferredSize(new java.awt.Dimension(50, 50));
+        jPanel32.setRequestFocusEnabled(false);
+
+        javax.swing.GroupLayout jPanel32Layout = new javax.swing.GroupLayout(jPanel32);
+        jPanel32.setLayout(jPanel32Layout);
+        jPanel32Layout.setHorizontalGroup(
+            jPanel32Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 44, Short.MAX_VALUE)
+        );
+        jPanel32Layout.setVerticalGroup(
+            jPanel32Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 44, Short.MAX_VALUE)
+        );
+
+        jPanel12.setBackground(new java.awt.Color(102, 0, 0));
+        jPanel12.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        jPanel12.setForeground(new java.awt.Color(255, 0, 0));
+        jPanel12.setName("12"); // NOI18N
+        jPanel12.setPreferredSize(new java.awt.Dimension(50, 50));
+        jPanel12.setRequestFocusEnabled(false);
+
+        javax.swing.GroupLayout jPanel12Layout = new javax.swing.GroupLayout(jPanel12);
+        jPanel12.setLayout(jPanel12Layout);
+        jPanel12Layout.setHorizontalGroup(
+            jPanel12Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 44, Short.MAX_VALUE)
+        );
+        jPanel12Layout.setVerticalGroup(
+            jPanel12Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 44, Short.MAX_VALUE)
+        );
+
+        jPanel63.setBackground(new java.awt.Color(255, 255, 255));
+        jPanel63.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        jPanel63.setForeground(new java.awt.Color(255, 0, 0));
+        jPanel63.setName("63"); // NOI18N
+        jPanel63.setPreferredSize(new java.awt.Dimension(50, 50));
+        jPanel63.setRequestFocusEnabled(false);
+
+        javax.swing.GroupLayout jPanel63Layout = new javax.swing.GroupLayout(jPanel63);
+        jPanel63.setLayout(jPanel63Layout);
+        jPanel63Layout.setHorizontalGroup(
+            jPanel63Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 44, Short.MAX_VALUE)
+        );
+        jPanel63Layout.setVerticalGroup(
+            jPanel63Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 44, Short.MAX_VALUE)
+        );
+
+        jPanel11.setBackground(new java.awt.Color(102, 0, 0));
         jPanel11.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jPanel11.setForeground(new java.awt.Color(255, 0, 0));
         jPanel11.setName("11"); // NOI18N
@@ -680,7 +644,43 @@ public class RushHourFrame2 extends javax.swing.JFrame {
             .addGap(0, 44, Short.MAX_VALUE)
         );
 
-        jPanel16.setBackground(new java.awt.Color(255, 255, 102));
+        jPanel23.setBackground(new java.awt.Color(102, 255, 102));
+        jPanel23.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        jPanel23.setForeground(new java.awt.Color(255, 0, 0));
+        jPanel23.setName("23"); // NOI18N
+        jPanel23.setPreferredSize(new java.awt.Dimension(50, 50));
+        jPanel23.setRequestFocusEnabled(false);
+
+        javax.swing.GroupLayout jPanel23Layout = new javax.swing.GroupLayout(jPanel23);
+        jPanel23.setLayout(jPanel23Layout);
+        jPanel23Layout.setHorizontalGroup(
+            jPanel23Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 44, Short.MAX_VALUE)
+        );
+        jPanel23Layout.setVerticalGroup(
+            jPanel23Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 44, Short.MAX_VALUE)
+        );
+
+        jPanel55.setBackground(new java.awt.Color(0, 102, 0));
+        jPanel55.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        jPanel55.setForeground(new java.awt.Color(0, 255, 255));
+        jPanel55.setName("55"); // NOI18N
+        jPanel55.setPreferredSize(new java.awt.Dimension(50, 50));
+        jPanel55.setRequestFocusEnabled(false);
+
+        javax.swing.GroupLayout jPanel55Layout = new javax.swing.GroupLayout(jPanel55);
+        jPanel55.setLayout(jPanel55Layout);
+        jPanel55Layout.setHorizontalGroup(
+            jPanel55Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 44, Short.MAX_VALUE)
+        );
+        jPanel55Layout.setVerticalGroup(
+            jPanel55Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 44, Short.MAX_VALUE)
+        );
+
+        jPanel16.setBackground(new java.awt.Color(51, 153, 255));
         jPanel16.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jPanel16.setForeground(new java.awt.Color(255, 0, 0));
         jPanel16.setName("16"); // NOI18N
@@ -698,21 +698,21 @@ public class RushHourFrame2 extends javax.swing.JFrame {
             .addGap(0, 44, Short.MAX_VALUE)
         );
 
-        jPanel15.setBackground(new java.awt.Color(255, 255, 255));
-        jPanel15.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
-        jPanel15.setForeground(new java.awt.Color(255, 0, 0));
-        jPanel15.setName("15"); // NOI18N
-        jPanel15.setPreferredSize(new java.awt.Dimension(50, 50));
-        jPanel15.setRequestFocusEnabled(false);
+        jPanel65.setBackground(new java.awt.Color(153, 153, 153));
+        jPanel65.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        jPanel65.setForeground(new java.awt.Color(255, 0, 0));
+        jPanel65.setName("65"); // NOI18N
+        jPanel65.setPreferredSize(new java.awt.Dimension(50, 50));
+        jPanel65.setRequestFocusEnabled(false);
 
-        javax.swing.GroupLayout jPanel15Layout = new javax.swing.GroupLayout(jPanel15);
-        jPanel15.setLayout(jPanel15Layout);
-        jPanel15Layout.setHorizontalGroup(
-            jPanel15Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+        javax.swing.GroupLayout jPanel65Layout = new javax.swing.GroupLayout(jPanel65);
+        jPanel65.setLayout(jPanel65Layout);
+        jPanel65Layout.setHorizontalGroup(
+            jPanel65Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGap(0, 44, Short.MAX_VALUE)
         );
-        jPanel15Layout.setVerticalGroup(
-            jPanel15Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+        jPanel65Layout.setVerticalGroup(
+            jPanel65Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGap(0, 44, Short.MAX_VALUE)
         );
 
@@ -735,6 +735,30 @@ public class RushHourFrame2 extends javax.swing.JFrame {
                         .addComponent(jPanel15, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addComponent(jPanel16, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(jPanel1Layout.createSequentialGroup()
+                        .addComponent(jPanel21, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(jPanel22, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(jPanel23, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(jPanel24, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(jPanel25, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(jPanel26, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(jPanel1Layout.createSequentialGroup()
+                        .addComponent(jPanel31, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(jPanel32, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(jPanel33, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(jPanel34, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(jPanel35, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(jPanel36, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                     .addGroup(jPanel1Layout.createSequentialGroup()
                         .addComponent(jPanel41, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
@@ -770,37 +794,13 @@ public class RushHourFrame2 extends javax.swing.JFrame {
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addComponent(jPanel65, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(jPanel66, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addComponent(jPanel21, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(jPanel22, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(jPanel23, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(jPanel24, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(jPanel25, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(jPanel26, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addComponent(jPanel31, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(jPanel32, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(jPanel33, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(jPanel34, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(jPanel35, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(jPanel36, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                        .addComponent(jPanel66, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
                 .addContainerGap(68, Short.MAX_VALUE))
         );
         jPanel1Layout.setVerticalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel1Layout.createSequentialGroup()
-                .addContainerGap()
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
+                .addGap(0, 24, Short.MAX_VALUE)
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                     .addComponent(jPanel16, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(jPanel15, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -847,29 +847,24 @@ public class RushHourFrame2 extends javax.swing.JFrame {
                     .addComponent(jPanel63, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(jPanel64, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(jPanel65, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jPanel66, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                    .addComponent(jPanel66, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
         );
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 434, Short.MAX_VALUE)
-            .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                .addGroup(layout.createSequentialGroup()
-                    .addContainerGap()
-                    .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))
+            .addGroup(layout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 378, Short.MAX_VALUE)
-            .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                .addGroup(layout.createSequentialGroup()
-                    .addContainerGap()
-                    .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap())
         );
 
         pack();
@@ -892,20 +887,20 @@ public class RushHourFrame2 extends javax.swing.JFrame {
                 }
             }
         } catch (ClassNotFoundException ex) {
-            java.util.logging.Logger.getLogger(RushHourFrame2.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(RushHourFrame4.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (InstantiationException ex) {
-            java.util.logging.Logger.getLogger(RushHourFrame2.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(RushHourFrame4.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (IllegalAccessException ex) {
-            java.util.logging.Logger.getLogger(RushHourFrame2.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(RushHourFrame4.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (javax.swing.UnsupportedLookAndFeelException ex) {
-            java.util.logging.Logger.getLogger(RushHourFrame2.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(RushHourFrame4.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         }
         //</editor-fold>
 
         /* Create and display the form */
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
-                new RushHourFrame2().setVisible(true);
+                new RushHourFrame4().setVisible(true);
             }
         });
     }

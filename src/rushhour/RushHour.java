@@ -18,8 +18,10 @@ public class RushHour {
 
     public static ArrayList<Panel> panelList = new ArrayList();
     public static ArrayList<Car> carList = new ArrayList();
-    public static HashMap<Color, Car> carsByColor = new HashMap<Color, Car>();
+    public static HashMap<Color, Car> carsByColor = new HashMap<>();
+    public static HashMap<Integer, Panel> panelByCoordinates = new HashMap<>();
     public static ArrayList<String> MovementArray = new ArrayList<>();
+    public static ArrayList<Move> PossibleMoves = new ArrayList<>();
 
     /**
      * @param args the command line arguments
@@ -33,17 +35,14 @@ public class RushHour {
 
     public static void startapp(int choise) {
         RushHourFrame1 mainframe = new RushHourFrame1();
-        if(choise == -1){
+        if (choise == -1) {
             mainframe.dispose();
         }
         if (choise == 0) {
-            mainframe.setVisible(true);
-        }
-        if (choise == 1) {
             RushHourFrame2 newframe = new RushHourFrame2();
-            for (Component panel : mainframe.jPanel1.getComponents()){
-                for(Component panelcompare : newframe.jPanel1.getComponents()){
-                    if (panel.getName().equals(panelcompare.getName())){
+            for (Component panel : mainframe.jPanel1.getComponents()) {
+                for (Component panelcompare : newframe.jPanel1.getComponents()) {
+                    if (panel.getName().equals(panelcompare.getName())) {
                         panel.setBackground(panelcompare.getBackground());
                     }
                 }
@@ -51,31 +50,58 @@ public class RushHour {
             newframe.dispose();
             mainframe.setVisible(true);
         }
-        if (choise == 2){
-            
+        if (choise == 1) {
+            RushHourFrame3 newframe = new RushHourFrame3();
+            for (Component panel : mainframe.jPanel1.getComponents()) {
+                for (Component panelcompare : newframe.jPanel1.getComponents()) {
+                    if (panel.getName().equals(panelcompare.getName())) {
+                        panel.setBackground(panelcompare.getBackground());
+                    }
+                }
+            }
+            newframe.dispose();
+            mainframe.setVisible(true);
+        }
+        if (choise == 2) {
+            RushHourFrame4 newframe = new RushHourFrame4();
+            for (Component panel : mainframe.jPanel1.getComponents()) {
+                for (Component panelcompare : newframe.jPanel1.getComponents()) {
+                    if (panel.getName().equals(panelcompare.getName())) {
+                        panel.setBackground(panelcompare.getBackground());
+                    }
+                }
+            }
+            newframe.dispose();
+            mainframe.setVisible(true);
         }
         createPanelList(mainframe);
         recognizeCars();
         MoveWhichWay();
-        info();
+        CanMoveWhere();
+
     }
-    public static void info(){
-        System.out.println("Number of cars: "+carsByColor.size());
-        for (Car car : carsByColor.values()){
-            System.out.println("Car "+car.getPanels().length+car.panels[0].color+" at position ");
-            for (Panel panel : car.getPanels()){
-                System.out.print(panel.x+" ");
+
+    public static void info() {
+        System.out.println("Number of cars: " + carsByColor.size());
+        for (Car car : carsByColor.values()) {
+            System.out.println("Car " + car.getPanels().length + car.panels[0].color.getRed() + " " + car.getPanels().length + car.panels[0].color.getGreen() + " " + car.getPanels().length + car.panels[0].color.getBlue() + " at position ");
+            for (Panel panel : car.getPanels()) {
+                System.out.print(panel.x + ":" + panel.y + " ");
             }
-             System.out.println(" can move "+car.movement);
+            System.out.println(" can move " + car.movement);
         }
-        
+
     }
 
     public static void createPanelList(RushHourFrame1 mainframe) {
         for (Component component : mainframe.jPanel1.getComponents()) {
-//System.out.println("Print "+ component.getName());
-            panelList.add(new Panel(component, component.getBackground(), Character.getNumericValue(component.getName().charAt(0)), Character.getNumericValue(component.getName().charAt(1))));
+            Panel panel = new Panel(component, component.getBackground(), Character.getNumericValue(component.getName().charAt(0)), Character.getNumericValue(component.getName().charAt(1)));
+            panelList.add(panel);
+            panelByCoordinates.put(new Coordinates(panel.x, panel.y).coordinates, panel);
+//            System.out.println("x" + panel.x + ":" + "y" + panel.y + panel.color);
         }
+//        Coordinates newcod = new Coordinates(1, 1);
+//        System.out.println("Panel at 5:5 = " + panelByCoordinates.get(new Coordinates(5, 5).coordinates));
     }
 
     public static class Panel {
@@ -89,6 +115,17 @@ public class RushHour {
             this.color = color;
             this.x = x;
             this.y = y;
+        }
+    }
+
+    public static class Coordinates {
+
+        private int coordinates;
+
+        public Coordinates(Integer x, Integer y) {
+            String a = String.valueOf(x) + String.valueOf(y);
+            Integer b = Integer.parseInt(a);
+            this.coordinates = b;
         }
     }
 
@@ -106,13 +143,23 @@ public class RushHour {
             return this.panels;
         }
 
-        public void addPanel(Panel p) {
-            Panel[] temp = new Panel[this.panels.length];
-            for (int i = 0; i < this.panels.length; i++) {
-                temp[i] = this.panels[i];
+        public void replacePanel(Panel toReplace, Panel replacewith) {
+            for (int i = 0;i<this.panels.length;i++){
+                if (this.panels[i].equals(toReplace)){
+                    this.panels[i] = replacewith;
+                }
             }
-            temp[temp.length - 1] = p;
-            this.panels = temp;
+        }
+    }
+
+    public static class Move {
+
+        private Car car;
+        private String direction;
+
+        public Move(Car car, String direction) {
+            this.car = car;
+            this.direction = direction;
         }
     }
 
@@ -127,8 +174,8 @@ public class RushHour {
                         carsByColor.remove(panel.color);
                         Car newcar = new Car(null, temp, panel);
                         carsByColor.put(panel.color, newcar);
-                    }
-                    if (carsByColor.get(panel.color).getPanels().length == 2) {
+
+                    } else {
                         Panel temp = carsByColor.get(panel.color).panels[0];
                         Panel temp2 = carsByColor.get(panel.color).panels[1];
                         carsByColor.remove(panel.color);
@@ -141,13 +188,83 @@ public class RushHour {
     }
 
     public static void MoveWhichWay() {
+        String b;
         for (Car car : carsByColor.values()) {
             if (car.panels[0].x == car.panels[1].x) {
-                car.movement = "horizontal";
+                car.movement = "vertical";
 
             } else {
-                car.movement = "vertical";
-            }   
+                car.movement = "horizontal";
+            }
+        }
+    }
+
+    public static void CanMoveWhere() {
+        for (Car car : carsByColor.values()) {
+            if (car.movement.equals("horizontal")) {
+
+                for (Panel panel : car.getPanels()) {
+                    if (panelByCoordinates.get(new Coordinates((panel.x + 1), panel.y).coordinates) != null && panelByCoordinates.get(new Coordinates(panel.x + 1, panel.y).coordinates).color.equals(Color.WHITE)) {
+                        System.out.println("Car at " + panel.x + ":" + panel.y + " can move to the right.");
+                        PossibleMoves.add(new Move(car, "right"));
+                    }
+                    if (panelByCoordinates.get(new Coordinates((panel.x - 1), panel.y).coordinates) != null && panelByCoordinates.get(new Coordinates(panel.x - 1, panel.y).coordinates).color.equals(Color.WHITE)) {
+                        System.out.println("Car at " + panel.x + ":" + panel.y + " can move to the left.");
+                        PossibleMoves.add(new Move(car, "left"));
+                    } else {
+                    }
+                }
+
+            }
+            if (car.movement.equals("vertical")) {
+                for (Panel panel : car.getPanels()) {
+                    if (panelByCoordinates.get(new Coordinates(panel.x, (panel.y - 1)).coordinates) != null && panelByCoordinates.get(new Coordinates(panel.x, panel.y - 1).coordinates).color.equals(Color.WHITE)) {
+                        System.out.println("Car at " + panel.x + ":" + panel.y + " can move up.");
+                        PossibleMoves.add(new Move(car, "up"));
+                    }
+                    if (panelByCoordinates.get(new Coordinates(panel.x, (panel.y + 1)).coordinates) != null && panelByCoordinates.get(new Coordinates(panel.x, panel.y + 1).coordinates).color.equals(Color.WHITE)) {
+                        System.out.println("Car at " + panel.x + ":" + panel.y + " can move down.");
+                        PossibleMoves.add(new Move(car, "down"));
+                    } else {
+                    }
+                }
+            }
+        }
+    }
+
+    public static void MakeMove() {
+        Car car = PossibleMoves.get(0).car;
+        Color color = PossibleMoves.get(0).car.panels[0].color;
+        String directions = PossibleMoves.get(0).direction;
+        for (Panel panel : car.getPanels()) {
+            panel.name.setBackground(Color.WHITE);
+        }
+        switch (directions) {
+            case "left":
+                for (Panel panel : car.getPanels()) {
+                    Panel replacementpanel = panelByCoordinates.get(new Coordinates((panel.x-1), panel.y).coordinates);
+                    car.replacePanel(panel, replacementpanel);
+                }
+            case "right":
+                for (Panel panel : car.getPanels()) {
+                    Panel replacementpanel = panelByCoordinates.get(new Coordinates((panel.x+1), panel.y).coordinates);
+                    car.replacePanel(panel, replacementpanel);
+                }
+            case "up":
+                for (Panel panel : car.getPanels()) {
+                    Panel replacementpanel = panelByCoordinates.get(new Coordinates(panel.x, (panel.y-1)).coordinates);
+                    car.replacePanel(panel, replacementpanel);
+                }
+            case "down":
+                for (Panel panel : car.getPanels()) {
+                    Panel replacementpanel = panelByCoordinates.get(new Coordinates(panel.x, (panel.y+1)).coordinates);
+                    car.replacePanel(panel, replacementpanel);
+                }
+            default:
+        }
+        for (Panel panel : car.getPanels()) {
+            panel.name.setBackground(color);
+            panel.color = color;
         }
     }
 }
