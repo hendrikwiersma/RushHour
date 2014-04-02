@@ -7,6 +7,10 @@
 package rushhour;
 
 import java.awt.Color;
+import static rushhour.RushHour.CanMoveWhere;
+import static rushhour.RushHour.MakeMove;
+import static rushhour.RushHour.MoveWhichWay;
+import static rushhour.RushHour.recognizeCars;
 
 /**
  *
@@ -939,7 +943,10 @@ public class RushHourFrame1 extends javax.swing.JFrame {
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
         // TODO add your handling code here:
-        RushHour.MakeMove();
+        recognizeCars();
+        MoveWhichWay();
+        CanMoveWhere();
+        MakeMove();
     }//GEN-LAST:event_jButton1ActionPerformed
 
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
