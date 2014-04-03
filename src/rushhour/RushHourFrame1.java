@@ -10,7 +10,11 @@ import java.awt.Color;
 import static rushhour.RushHour.CanMoveWhere;
 import static rushhour.RushHour.MakeMove;
 import static rushhour.RushHour.MoveWhichWay;
+import static rushhour.RushHour.createPanelList;
+import static rushhour.RushHour.linkcoordinates;
 import static rushhour.RushHour.recognizeCars;
+import static rushhour.RushHour.search;
+import static rushhour.RushHour.startapp;
 
 /**
  *
@@ -893,6 +897,11 @@ public class RushHourFrame1 extends javax.swing.JFrame {
         });
 
         jButton3.setText("Start");
+        jButton3.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton3ActionPerformed(evt);
+            }
+        });
 
         jLabel1.setText("Show best result");
 
@@ -943,15 +952,24 @@ public class RushHourFrame1 extends javax.swing.JFrame {
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
         // TODO add your handling code here:
-        recognizeCars();
-        MoveWhichWay();
-        CanMoveWhere();
-        MakeMove();
+        search();
     }//GEN-LAST:event_jButton1ActionPerformed
 
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
         // TODO add your handling code here:
+        startapp();
+        
     }//GEN-LAST:event_jButton2ActionPerformed
+
+    private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
+        // TODO add your handling code here:
+        createPanelList();
+        linkcoordinates();
+        recognizeCars();
+        MoveWhichWay();
+        CanMoveWhere();
+        MakeMove();
+    }//GEN-LAST:event_jButton3ActionPerformed
 
     /**
      * @param args the command line arguments
